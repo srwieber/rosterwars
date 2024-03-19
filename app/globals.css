@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -30,4 +31,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h1 {
+  margin-top:5rem;
+  text-align:center;
+  font-size: 5em;
+  font-family: "Ewert", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  margin:auto;
 }
